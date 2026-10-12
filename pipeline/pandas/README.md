@@ -12,6 +12,8 @@ DataFrame exercises using Python and pandas.
 - `2-main.py`: example test using the Coinbase and Bitstamp CSV files.
 - `3-rename.py`: converts Timestamp to Datetime and keeps Datetime and Close.
 - `3-main.py`: example test using the Coinbase CSV file.
+- `4-array.py`: returns the last ten High and Close rows as a NumPy array.
+- `4-main.py`: example test using the Coinbase CSV file.
 
 Run the tests from this directory with NumPy and pandas installed:
 
@@ -26,4 +28,5 @@ To run `./2-main.py`, place these datasets in this directory first:
 - `bitstampUSD_1-min_data_2012-01-01_to_2020-04-22.csv`
 
 The datasets are not included in this repository.
-Once the Coinbase file is available, run `./3-main.py` for task 3.
+Once the Coinbase file is available, run `./3-main.py` and `./4-main.py`
+for tasks 3 and 4.
