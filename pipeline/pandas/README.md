@@ -16,6 +16,8 @@ DataFrame exercises using Python and pandas.
 - `4-main.py`: example test using the Coinbase CSV file.
 - `5-slice.py`: selects High, Low, Close, and Volume_(BTC) every 60 rows.
 - `5-main.py`: example test using the Coinbase CSV file.
+- `6-flip_switch.py`: sorts the index in descending order and transposes.
+- `6-main.py`: example test using the Coinbase CSV file.
 
 Run the tests from this directory with NumPy and pandas installed:
 
@@ -31,4 +33,4 @@ To run `./2-main.py`, place these datasets in this directory first:
 
 The datasets are not included in this repository.
 Once the Coinbase file is available, run `./3-main.py`, `./4-main.py`,
-and `./5-main.py` for tasks 3 through 5.
+`./5-main.py`, and `./6-main.py` for tasks 3 through 6.
