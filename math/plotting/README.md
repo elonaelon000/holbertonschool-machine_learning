@@ -37,6 +37,9 @@ sudo apt-get install python3-tk
 - `2-change_scale.py`: plots carbon-14 decay with a logarithmic y-axis
   and time ranging from 0 to 28,650 years.
 - `2-main.py`: calls the `change_scale()` function to display the graph.
+- `3-two.py`: compares carbon-14 and radium-226 decay using two line styles
+  and a legend.
+- `3-main.py`: calls the `two()` function to display the graph.
 
 ## Running a task
 
@@ -47,6 +50,7 @@ cd math/plotting
 ./0-main.py
 ./1-main.py
 ./2-main.py
+./3-main.py
 ```
 
 Plot windows need a graphical environment. Check the code style with:
