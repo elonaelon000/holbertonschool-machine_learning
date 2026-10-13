@@ -34,6 +34,8 @@ DataFrame exercises using Python and pandas.
 - `12-main.py`: example test using the Coinbase and Bitstamp CSV files.
 - `13-analyze.py`: computes descriptive statistics, excluding Timestamp.
 - `13-main.py`: example test using the Coinbase CSV file.
+- `14-visualize.py`: cleans Coinbase data, prints daily statistics from 2017
+  onward, and plots the six price and volume columns.
 
 Run the tests from this directory with NumPy and pandas installed:
 
@@ -51,3 +53,6 @@ The datasets are not included in this repository.
 Once the Coinbase file is available, the example scripts for tasks 3 through 10
 and task 13 can also be run from this directory, for example `./13-main.py`.
 Tasks 11 and 12 use both datasets. Run `./11-main.py` or `./12-main.py`.
+
+Task 14 also requires Matplotlib. With the Coinbase CSV available, run
+`./14-visualize.py` to print the daily DataFrame and open the plot window.
