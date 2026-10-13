@@ -38,7 +38,7 @@ def all_in_one():
     plt.xlim(0, 10)
 
     plt.subplot(3, 2, 2)
-    plt.scatter(x1, y1, c='m', s=10)
+    plt.scatter(x1, y1, color='magenta')
     plt.xlabel('Height (in)', fontsize='x-small')
     plt.ylabel('Weight (lbs)', fontsize='x-small')
     plt.title("Men's Height vs Weight", fontsize='x-small')
