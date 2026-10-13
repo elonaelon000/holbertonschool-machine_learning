@@ -26,6 +26,12 @@ DataFrame exercises using Python and pandas.
 - `9-main.py`: example test using the Coinbase CSV file.
 - `10-index.py`: sets Timestamp as the DataFrame index.
 - `10-main.py`: example test using the Coinbase CSV file.
+- `11-concat.py`: prepends Bitstamp rows through timestamp 1417411920 to
+  Coinbase data, using source labels and a Timestamp index.
+- `11-main.py`: example test using the Coinbase and Bitstamp CSV files.
+- `12-hierarchy.py`: combines both exchanges from timestamp 1417411980
+  through 1417417980, with Timestamp first in the index and rows in time order.
+- `12-main.py`: example test using the Coinbase and Bitstamp CSV files.
 
 Run the tests from this directory with NumPy and pandas installed:
 
@@ -42,3 +48,4 @@ To run `./2-main.py`, place these datasets in this directory first:
 The datasets are not included in this repository.
 Once the Coinbase file is available, the example scripts for tasks 3 through 10
 can also be run from this directory, for example `./10-main.py`.
+Tasks 11 and 12 use both datasets. Run `./11-main.py` or `./12-main.py`.
