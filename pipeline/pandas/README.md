@@ -32,6 +32,8 @@ DataFrame exercises using Python and pandas.
 - `12-hierarchy.py`: combines both exchanges from timestamp 1417411980
   through 1417417980, with Timestamp first in the index and rows in time order.
 - `12-main.py`: example test using the Coinbase and Bitstamp CSV files.
+- `13-analyze.py`: computes descriptive statistics, excluding Timestamp.
+- `13-main.py`: example test using the Coinbase CSV file.
 
 Run the tests from this directory with NumPy and pandas installed:
 
@@ -47,5 +49,5 @@ To run `./2-main.py`, place these datasets in this directory first:
 
 The datasets are not included in this repository.
 Once the Coinbase file is available, the example scripts for tasks 3 through 10
-can also be run from this directory, for example `./10-main.py`.
+and task 13 can also be run from this directory, for example `./13-main.py`.
 Tasks 11 and 12 use both datasets. Run `./11-main.py` or `./12-main.py`.
