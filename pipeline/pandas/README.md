@@ -18,6 +18,10 @@ DataFrame exercises using Python and pandas.
 - `5-main.py`: example test using the Coinbase CSV file.
 - `6-flip_switch.py`: sorts the index in descending order and transposes.
 - `6-main.py`: example test using the Coinbase CSV file.
+- `7-high.py`: sorts rows by High price in descending order.
+- `7-main.py`: example test using the Coinbase CSV file.
+- `8-prune.py`: removes rows with missing Close prices.
+- `8-main.py`: example test using the Coinbase CSV file.
 
 Run the tests from this directory with NumPy and pandas installed:
 
@@ -32,5 +36,5 @@ To run `./2-main.py`, place these datasets in this directory first:
 - `bitstampUSD_1-min_data_2012-01-01_to_2020-04-22.csv`
 
 The datasets are not included in this repository.
-Once the Coinbase file is available, run `./3-main.py`, `./4-main.py`,
-`./5-main.py`, and `./6-main.py` for tasks 3 through 6.
+Once the Coinbase file is available, the example scripts for tasks 3 through 8
+can also be run from this directory, for example `./8-main.py`.
