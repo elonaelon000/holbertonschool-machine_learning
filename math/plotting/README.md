@@ -6,19 +6,49 @@ their axes, labels, titles, and legends.
 
 ## Requirements
 
-- Python 3
-- NumPy
-- Matplotlib
+The project environment specified by Holberton is:
+
+- Ubuntu 20.04 LTS and Python 3.9
+- NumPy 1.25.2
+- Matplotlib 3.8.3
+- pycodestyle 2.11.1
 
 Install the Python packages in your working environment:
 
 ```bash
-python3 -m pip install numpy matplotlib
+python3 -m pip install --user numpy==1.25.2 matplotlib==3.8.3 \
+    Pillow==10.3.0 pycodestyle==2.11.1
 ```
 
-## Working on the tasks
+On Ubuntu, the Tk plotting backend can be installed with:
 
-Use the filenames and starter code provided in the Holberton project brief.
-Keep unfinished task files empty until their exercises are completed.
-Run each completed script from this directory using `python3` followed by
-its filename. Plot windows require a graphical environment.
+```bash
+sudo apt-get install python3-tk
+```
+
+## Tasks
+
+- `0-line.py`: plots the cubes of numbers from 0 through 10 as a solid red
+  line, with the x-axis limited to that range.
+- `0-main.py`: calls the `line()` function to display the graph.
+
+## Running a task
+
+From the repository root:
+
+```bash
+cd math/plotting
+./0-main.py
+```
+
+Plot windows need a graphical environment. Check the code style with:
+
+```bash
+pycodestyle 0-line.py 0-main.py
+```
+
+## File conventions
+
+Python files start with `#!/usr/bin/env python3`, have module and function
+docstrings, end with a newline, and are executable. Each task uses the imports
+allowed in its instructions and follows pycodestyle.
