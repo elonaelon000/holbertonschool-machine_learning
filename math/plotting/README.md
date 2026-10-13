@@ -31,6 +31,9 @@ sudo apt-get install python3-tk
 - `0-line.py`: plots the cubes of numbers from 0 through 10 as a solid red
   line, with the x-axis limited to that range.
 - `0-main.py`: calls the `line()` function to display the graph.
+- `1-scatter.py`: plots men's heights and weights as magenta points, with
+  axis labels and a title.
+- `1-main.py`: calls the `scatter()` function to display the graph.
 
 ## Running a task
 
@@ -39,12 +42,13 @@ From the repository root:
 ```bash
 cd math/plotting
 ./0-main.py
+./1-main.py
 ```
 
 Plot windows need a graphical environment. Check the code style with:
 
 ```bash
-pycodestyle 0-line.py 0-main.py
+pycodestyle 0-line.py 0-main.py 1-scatter.py 1-main.py
 ```
 
 ## File conventions
