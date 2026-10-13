@@ -34,6 +34,9 @@ sudo apt-get install python3-tk
 - `1-scatter.py`: plots men's heights and weights as magenta points, with
   axis labels and a title.
 - `1-main.py`: calls the `scatter()` function to display the graph.
+- `2-change_scale.py`: plots carbon-14 decay with a logarithmic y-axis
+  and time ranging from 0 to 28,650 years.
+- `2-main.py`: calls the `change_scale()` function to display the graph.
 
 ## Running a task
 
@@ -43,12 +46,13 @@ From the repository root:
 cd math/plotting
 ./0-main.py
 ./1-main.py
+./2-main.py
 ```
 
 Plot windows need a graphical environment. Check the code style with:
 
 ```bash
-pycodestyle 0-line.py 0-main.py 1-scatter.py 1-main.py
+pycodestyle *.py
 ```
 
 ## File conventions
