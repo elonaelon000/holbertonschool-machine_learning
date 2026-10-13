@@ -43,6 +43,9 @@ sudo apt-get install python3-tk
 - `4-frequency.py`: groups student grades into ten-point bins from 0 to 100,
   with black bar outlines.
 - `4-main.py`: calls the `frequency()` function to display the histogram.
+- `5-all_in_one.py`: combines the five previous graphs in a 3-by-2 grid,
+  with the histogram spanning the bottom row.
+- `5-main.py`: calls the `all_in_one()` function to display the figure.
 
 ## Running a task
 
@@ -55,6 +58,7 @@ cd math/plotting
 ./2-main.py
 ./3-main.py
 ./4-main.py
+./5-main.py
 ```
 
 Plot windows need a graphical environment. Check the code style with:
