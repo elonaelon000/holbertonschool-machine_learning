@@ -46,6 +46,9 @@ sudo apt-get install python3-tk
 - `5-all_in_one.py`: combines the five previous graphs in a 3-by-2 grid,
   with the histogram spanning the bottom row.
 - `5-main.py`: calls the `all_in_one()` function to display the figure.
+- `6-bars.py`: stacks four kinds of fruit for Farrah, Fred, and Felicia,
+  with a different color for each fruit.
+- `6-main.py`: calls the `bars()` function to display the chart.
 
 ## Running a task
 
@@ -59,6 +62,7 @@ cd math/plotting
 ./3-main.py
 ./4-main.py
 ./5-main.py
+./6-main.py
 ```
 
 Plot windows need a graphical environment. Check the code style with:
