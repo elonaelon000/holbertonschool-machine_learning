@@ -40,6 +40,9 @@ sudo apt-get install python3-tk
 - `3-two.py`: compares carbon-14 and radium-226 decay using two line styles
   and a legend.
 - `3-main.py`: calls the `two()` function to display the graph.
+- `4-frequency.py`: groups student grades into ten-point bins from 0 to 100,
+  with black bar outlines.
+- `4-main.py`: calls the `frequency()` function to display the histogram.
 
 ## Running a task
 
@@ -51,6 +54,7 @@ cd math/plotting
 ./1-main.py
 ./2-main.py
 ./3-main.py
+./4-main.py
 ```
 
 Plot windows need a graphical environment. Check the code style with:
